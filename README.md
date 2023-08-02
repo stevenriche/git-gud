@@ -27,6 +27,12 @@ Git Practice
 
 *README.md*: Git repos often come with a "README.md" file written in a format called "markdown" that displays on the main page of a GitHub repo and gives instructions or details about the codebase.
 
+## Setting up SSH with GitHub
+
+If you plan on using GitHub, it is a good idea to configure SSH on your machine. It makes everything much easier. Sign up for a free account, and [follow these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys?platform=mac).
+
+We will walk through the process together, but you will only need to do this once, and it will make using GitHub much easier.
+
 ## Some Git Commands
 
 Using command line tools can be a bit intimidating at first, but you will only ever use maybe a dozen commands and it is much easier than you expect.
@@ -54,6 +60,7 @@ All Git-specific commands are going to start with `git [command]`.
 `% git init`: This takes a folder and turns it into a git repo. It will create a "main" branch, and start tracking changes. This is what you would do if you want to create a git repo on your computer first, then connect to GitHub (or just keep on your computer).
 
 `% git clone [address of repo]`: This copies a repo from another source (like GitHub) onto your computer. Make sure your terminal window is on the parent directory of where you want the git repo to be located. You can find the link to put in the command above in GitHub here: ![github clone](git-clone.png)
+(Make sure you use the SSH address after you've set up using SSH with your computer).
 
 ### Managing branches
 
